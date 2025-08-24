@@ -23,4 +23,4 @@ EXPOSE 8080
 
 # 启动 gost 的命令保持不变，它依然非常强大和灵活
 # 确保这里的用户名、密码与您的 Worker 配置匹配
-CMD ["gost", "-L", "socks5+ws://myuser:mypassword@:8080"]
+CMD ["gost", "-L", "socks5+ws://name:pass@:8080?path=/ws"]
